@@ -1,0 +1,131 @@
+body {
+    background: linear-gradient(135deg, #565e6a, #202b3b);
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120vh;
+    color: white;
+}
+
+input {
+    background-color: #202b3b;
+    border-width: 0;
+    border-radius: 10px;
+    width: 500px;
+    height: 30px;
+    font-size: 48;
+    color: white;
+    padding-left: 10px;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 60%;
+    background-color: #0b131e;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+
+.display-container {
+    display: flex;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    height: 85vh;
+    
+}
+
+.left-container {
+    background-color: #0b131e;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    gap: 20px;
+}
+
+.left-container > div {
+    flex: 1;
+    border-radius: 10px;
+    padding: 20px;
+    padding-top: 0px;
+}
+
+.right-container {
+    background-color: #202b3b;
+    border-radius: 20px;
+    padding: 20px;
+    flex: 1;
+    color: #8f959d;
+}
+
+.left-container-head {
+    background-color: #0b131e;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-container-forecast {
+    background-color: #202b3b;
+    color: #8f959d;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.forecast-div {
+    display: flex;
+    flex: 1;
+}
+
+.forecast-div > div {
+    flex: 1;
+    height: 100%;
+    border-right: 1px solid #384250;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left-container-air-conditions {
+    background-color: #202b3b;
+    color: #8f959d;
+}
+
+.air-conditions-div {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 30px;
+}
+
+.search-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    color: white;
+}
+
+.five-day-forecast {
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+}
+
+.five-day-forecast > div {
+    border-top: 1px solid #384250;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

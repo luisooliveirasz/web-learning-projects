@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+    <div class="main-container">
+        <h1>Weather Forecast</h1>
+        <form id="search">
+            <i class="fa-solid fa-location-dot"></i>
+            <input 
+                type="search" 
+                name="city_name" 
+                id="city_name" 
+                placeholder="Buscar cidade"
+            >
+            <button type="submit" class="search-button">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+        </form>
+        <div class="display-container">
+            <div class="left-container">
+                <div class="left-container-head">
+                    <div class="left-container-head-text">
+                        <h1 id="city" style="margin-bottom: 5px;">Cidade</h1>
+                        <h5 id="country" style="color:#8f959d; margin-top: 0;">País</h5>
+                        <h1 id="temperature" style="margin-bottom: auto;font-size: 48px;">31°C</h1>
+                    </div>
+                    <img id="big-icon" src="assets/images/sunny.png" width="150px">
+                </div>
+                <div class="left-container-forecast">
+                    <h4>Today's Forecast</h4>
+                    <div class="forecast-div">
+                        <div id="forecast-01">
+                            6:00 am
+                        </div>
+                        <div id="forecast-02">
+                            9:00 am
+                        </div>
+                        <div id="forecast-03">
+                            12:00 am
+                        </div>
+                        <div id="forecast-04">
+                            3:00 pm
+                        </div>
+                        <div id="forecast-05">
+                            6:00 pm
+                        </div>
+                        <div id="forecast-06">
+                            9:00 pm
+                        </div>
+                    </div>
+                </div>
+                <div class="left-container-air-conditions">
+                    <h4>Air Conditions</h4>
+                    <div class="air-conditions-div">
+                        <div class="real-feel">
+                            <i class="fa-solid fa-temperature-half"></i> Real feel
+                            <p id="real-feel" style="margin-top:5px">-</p>
+                        </div>
+                        <div class="wind">
+                            <i class="fa-solid fa-wind"></i> Wind
+                            <p id="wind-speed" style="margin-top:5px">-</p>
+                        </div>
+                        <div class="max-temperature">
+                            <i class="fa-solid fa-temperature-full"></i> Max temperature
+                            <p id="max-temperature" style="margin-top:5px">-</p>
+                        </div>
+                        <div class="humidity">
+                            <i class="fa-solid fa-droplet"></i> Humidity
+                            <p id="humidity" style="margin-top:5px">-</p>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="right-container">
+                <p>5-Day Forecast</p>
+                <div class="five-day-forecast">
+                    <div id="day-01">
+                        Today
+                        <img src="assets/images/sunny.png" width="20px">
+                        00.00°C
+                    </div>
+                    <div id="day-02">
+                        Today + 1
+                        <img src="assets/images/sunny.png" width="20px">
+                        00.00°C
+                    </div>
+                    <div id="day-03">
+                        Today + 2
+                        <img src="assets/images/sunny.png" width="20px">
+                        00.00°C
+                    </div>
+                    <div id="day-04">
+                        Today + 3
+                        <img src="assets/images/sunny.png" width="20px">
+                        00.00°C
+                    </div>
+                    <div id="day-05">
+                        Today + 4
+                        <img src="assets/images/sunny.png" width="20px">
+                        00.00°C
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="assets/script.js"></script>
+</body>
+</html>
