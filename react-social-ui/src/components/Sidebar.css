@@ -1,0 +1,22 @@
+h2 {
+    margin-bottom: 20px;
+}
+
+.nav-item {
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    color: #efefef;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.nav-item:hover {
+    background-color: #efefef33;
+}
+
+.nav-item.active {
+    background-color: #efefef;
+    color: black;
+    font-weight: bold;
+}

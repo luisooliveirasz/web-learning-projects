@@ -1,0 +1,28 @@
+.profile {
+    background-color: #2A2A2A;
+    border-radius: 8px;
+    height: 500px;
+}
+
+.profile-picture {
+    border-radius: 50%;
+    width: 150px;
+    margin-top: -75px;
+    margin-left: 20px;
+    border: 10px solid #2A2A2A;
+}
+
+.banner {
+    background-color: #6b2c40;
+    width: auto;
+    height: 150px;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.profile-text {
+    padding-left: 20px;
+}
+
+.bio {
+    margin: 15px 0px 15px 0px;
+}

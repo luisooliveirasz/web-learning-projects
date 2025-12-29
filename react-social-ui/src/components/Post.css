@@ -1,0 +1,21 @@
+.post {
+  margin-bottom: 20px;
+  border-radius: 8px;
+  padding: 20px;
+  flex-direction: column;
+  height: auto;
+  min-height: 200px;
+  background-color: #2A2A2A;
+}
+
+.post-header {
+    margin-bottom: 10px;
+}
+
+.post-content {
+    margin-left: 25px;
+}
+
+.username {
+    color: #0095f6CC;
+}

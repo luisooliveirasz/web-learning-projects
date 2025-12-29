@@ -1,0 +1,19 @@
+.notifications-tabss {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #efefef;
+}
+
+.notifications-nav-item {
+    flex: 1;
+    padding: 12px;
+    text-decoration: none;
+    color: #efefef;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.notifications-nav-item:hover {
+    background-color: #efefef33;
+}
