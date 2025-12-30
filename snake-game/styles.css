@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #565e6a, #202b3b);
+    font-family: "Arial", Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+
+.container {
+    background: #202b3b;
+    border-radius: 40px;
+    box-shadow: 0 8px 6px rgba(0, 0, 0, 0.3);
+    padding: 40px;
+    text-align: center;
+    color: white;
+}
+
+.container > h1 {
+    margin-bottom: 30px;
+}
+
+.container > h3 {
+    margin-top: 20px;
+}
+
+#myCanvas {
+    border: 1px solid black;
+}
