@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/styles/global.css" />
+    <title>orbit-tracker</title>
+  </head>
+  <body>
+    <div id="app"></div>
+
+    <div id="overlay-border">
+      <div id="overlay">
+        <div id="overlay-content">
+          <h1>Orbit Tracker</h1>
+          <p>Use o mouse para controlar a câmera.</p>
+          
+
+          <hr>
+          
+          <p>Excentricidade</p>
+          <div class="float-slider">
+            <input id="eccentricity-slider" type="range" min="0" max="1" name="eccentricity" step="0.05" value="0.5">
+            <p id="eccentricity-slider-value">0.5</p>
+          </div>
+          
+          <hr>
+
+          <p>Inclinação orbital</p>
+          <div class="float-slider">
+            <input id="inclination-slider" type="range" min="0" max="180" name="inclination" step="1" value="30">
+            <p id="inclination-slider-value">30°</p>
+          </div>
+
+          <hr>
+
+          
+          <div class="float-input">
+            <p>Escala de tempo</p>
+            <input id="time-scale-input" value="3600">
+          </div>
+        
+        </div>
+      </div>
+    </div>
+
+    <script type="module" src="/src/scripts/main.js"></script>
+  </body>
+</html>
