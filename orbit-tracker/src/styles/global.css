@@ -38,6 +38,10 @@ input[type="range"]::-webkit-slider-thumb {
     box-shadow: 0 0 10px #00d4ff;
 }
 
+input[type="range"] {
+    width: auto;
+}
+
 .float-slider {
     display: flex;
     flex-direction: row;
@@ -71,4 +75,22 @@ hr {
     margin: 10px 0;
     border: none;
     border-top: 1px solid rgba(0, 200, 255, 0.2);
+}
+
+#by-me-text {
+    color: gray;
+}
+
+#by-me-text > a {
+    color: gray;
+}
+
+#by-me-text > a:hover {
+    color: #e0f7ff;
+}
+
+.checkbox {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
 }

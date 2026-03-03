@@ -16,30 +16,73 @@
           <h1>Orbit Tracker</h1>
           <p>Use o mouse para controlar a câmera.</p>
           
+          <hr>
+
+          <div class="float-input">
+            <p>Semi-eixo maior (a)</p>
+            <input id="semi-major-axis-input" value="2">
+            <p>(raios terrestres)</p>
+          </div>
 
           <hr>
           
-          <p>Excentricidade</p>
+          <p>Excentricidade (e)</p>
           <div class="float-slider">
             <input id="eccentricity-slider" type="range" min="0" max="1" name="eccentricity" step="0.05" value="0.5">
-            <p id="eccentricity-slider-value">0.5</p>
+            <p id="eccentricity-slider-text">0.5</p>
           </div>
           
           <hr>
 
-          <p>Inclinação orbital</p>
+          <p>Inclinação orbital (i)</p>
           <div class="float-slider">
             <input id="inclination-slider" type="range" min="0" max="180" name="inclination" step="1" value="30">
-            <p id="inclination-slider-value">30°</p>
+            <p id="inclination-slider-text">30°</p>
           </div>
 
           <hr>
 
+          <p>Longitude do nodo ascendente (Ω)</p>
+          <div class="float-slider">
+            <input id="ascending-node-longitude-slider" type="range" min="0" max="360" name="ascending-node-longitude" step="1" value="0">
+            <p id="ascending-node-longitude-slider-text">0°</p>
+          </div>
+
+          <hr>
+
+          <p>Argumento do periastro (ω)</p>
+          <div class="float-slider">
+            <input id="periapsis-argument-slider" type="range" min="0" max="360" name="periapsis-argument" step="1" value="0">
+            <p id="periapsis-argument-slider-text">0°</p>
+          </div>
+
+          <hr>
           
           <div class="float-input">
             <p>Escala de tempo</p>
             <input id="time-scale-input" value="3600">
           </div>
+
+          <hr>
+
+          <div class="checkbox">
+            <input id="show-axes-checkbox" type="checkbox">
+            <p>Mostrar eixos</p>
+          </div>
+
+          <div class="checkbox">
+            <input id="show-equator-checkbox" type="checkbox">
+            <p>Mostrar plano equatorial</p>
+          </div>
+
+          <div class="checkbox">
+            <input id="show-ground-track-checkbox" type="checkbox">
+            <p>Registrar rota de solo (<i>ground track</i>)</p>
+          </div>
+
+          <hr>
+
+          <p id="by-me-text">por <a href="https://www.instagram.com/luisooliveirasz/">@luisooliveirasz</a></p>
         
         </div>
       </div>
